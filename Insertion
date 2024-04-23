@@ -1,0 +1,8 @@
+void insertAtBeginning(struct Node* head, int new_data)
+{
+struct node *newNode;
+newNode = malloc(sizeof(struct node));
+newNode-&gt;data = X;
+newNode-&gt;next = head;
+head = newNode;
+}
